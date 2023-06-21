@@ -1,0 +1,96 @@
+
+.best_text{
+    color: white;
+    font-size: 3.4vw;
+}
+.text_weather{
+    margin: 35px 0 24px 0  !important;
+    position: relative;
+}
+.current_country{
+    font-size: 3vw;
+}
+.current_country_name{
+    font-size: 2vw;
+}
+.current_temperature{
+    font-size: 5vw;
+    font-weight: 700;
+    position: absolute;
+    top: -8%;
+    left: 5%;
+    color: white;
+}
+.weather_description{
+    font-size: 1.4vw;
+    font-weight: 100;
+    color: white;
+}
+.weather_humidity{
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin: 2px 0;
+}
+#locationInp{
+   border: none;
+   outline: none;
+   box-shadow: 0 0 5px 0 gray;
+   border-radius: 5px;
+   margin: 0 0 15px 0;
+   padding: 8px 40px 8px 14px;
+}
+.Error_prompt{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 900;
+}
+.weather_btn{
+    padding: 6px 30px;
+    border: none;
+    box-shadow: 0 0 5px 0 gray;
+    border-radius: 5px;
+    background: linear-gradient(to right, #a8c0ff ,#3f2b96);
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.7vw;
+    font-weight: 600;
+    outline: none;
+    transition: .5s;
+}
+.weather_btn:hover{
+    background: linear-gradient(to right, #3f2b96 ,#a8c0ff);
+}
+.back{
+    background: linear-gradient(to right, #3A1C71, #D76D77, #fa9c5e);
+    border-radius: 7px;
+    padding: 48px 14px;
+    margin: 20px 100px;
+}
+
+@media screen and (max-width: 550px) {
+    .current_temperature{
+        top: -38%;
+        font-size: 28px;
+    }
+    #locationInp{
+        width: 100%;
+    }
+    .current_country{
+        font-size: 23px;
+    }
+    .back{
+        margin: 20px 0;
+    }
+    .weather_description {
+        font-size: 18px;
+    }
+    .weather_btn{
+        font-size: 18px;
+    }
+    .weather_sec{
+        padding: 7px 0 0 0;
+    }
+    .weather_humidity{
+        font-size: 18px;  
+    }
+  }
